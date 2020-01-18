@@ -14,7 +14,7 @@ Based on CMU PIE set and the selfie set made by myself with the same resolution 
 'LDA.m' can finish the LDA for feature extraction.  
 'SVM.m' can train svm model to fulfill face recognition.  
 'dataprepare_for_CNN.m' can combine the 20 subjects into the 'CNN_PIE' folder for code 'CNN.py'  
-'CNN.py' can train a CNN with two convolutional layers and one fully connected layer, with the architecture specified as follows:   
+'CNN.py' trains a CNN with two convolutional layers and a fully connected layer, with the architecture specified as follows:   
 >number of nodes: 20-50-500-21.  
 >Convolutional kernel sizes are set as 5.   
 >Each convolutional layer is followed by a max pooling layer with a kernel size of 2 and stride of 2.  
